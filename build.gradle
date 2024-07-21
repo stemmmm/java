@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+}
+
+allprojects {
+    group = 'emstemm'
+    version = '1.0-SNAPSHOT'
+
+    java {
+        toolchain {
+            languageVersion = JavaLanguageVersion.of(21)
+        }
+    }
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {
+    apply plugin: 'java'
+    apply plugin: 'java-library'
+
+    configurations {
+        compileOnly {
+            extendsFrom annotationProcessor
+        }
+    }
+
+    dependencies {
+        compileOnly 'org.projectlombok:lombok:1.18.34'
+        annotationProcessor 'org.projectlombok:lombok:1.18.34'
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+}
