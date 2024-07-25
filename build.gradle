@@ -3,7 +3,7 @@ plugins {
 }
 
 allprojects {
-    group = 'emstemm'
+    group = 'study'
     version = '1.0-SNAPSHOT'
 
     java {
