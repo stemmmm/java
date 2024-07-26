@@ -1,4 +1,4 @@
-package study.week1.section6.injejeong;
+package study.week1.section1.hoyunjung;
 
 public class Main {
     public static void main(String[] args) {
