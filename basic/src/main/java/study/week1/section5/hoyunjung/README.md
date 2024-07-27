@@ -1,4 +1,4 @@
-### 패키지
+# 패키지
 
 - 자바 패키지는 클래스들을 자신만의 고유한 namespace로 구조화함(폴더, 디렉토리와 유사)
 - 클래스 뿐 아니라 interface, enum, record, annotation 타입 포함 가능
@@ -9,6 +9,6 @@
     - `com.example.myapp.service`
     - ...
 
-### 출처
+## 출처
 
 - [위키백과](https://en.wikipedia.org/wiki/Java_package)
