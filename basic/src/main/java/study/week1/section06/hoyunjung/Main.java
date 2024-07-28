@@ -1,6 +1,6 @@
-package study.week1.section6.hoyunjung;
+package study.week1.section06.hoyunjung;
 
-import study.week1.section6.hoyunjung.a.PublicClass;
+import study.week1.section06.hoyunjung.a.PublicClass;
 
 public class Main extends PublicClass {
     public static void main(String[] args) {
