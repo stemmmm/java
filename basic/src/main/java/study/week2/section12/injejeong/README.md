@@ -30,6 +30,23 @@ public class K3Car implements Car {
 }
 ```
 ```java
+public class Model3Car implements Car {
+    @Override
+    public void startEngine() {
+        System.out.println("Model3Car.startEngine");
+    }
+    
+    @Override
+    public void offEngine() {
+        System.out.println("Model3Car.offEngine");
+    }
+    @Override
+    public void pressAccelerator() {
+        System.out.println("Model3Car.pressAccelerator");
+    }
+}
+```
+```java
 public class Driver {
     private Car car;
     public void setCar(Car car) {
