@@ -1,4 +1,4 @@
-package study.week2.section09.quiz;
+package study.week2.section09.injejeong.quiz;
 
 public class Book extends Item {
     private String author;

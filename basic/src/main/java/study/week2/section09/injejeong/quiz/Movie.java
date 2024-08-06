@@ -1,4 +1,4 @@
-package study.week2.section09.quiz;
+package study.week2.section09.injejeong.quiz;
 
 public class Movie extends Item {
     private String director;
