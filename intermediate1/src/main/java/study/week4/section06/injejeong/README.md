@@ -91,4 +91,11 @@ Duration timeDifference = Duration.between(start, end);
 - `ChronoField`: 날짜와 시간의 특정 부분을 나타내는 열거형
 - `TemproalField`: 날짜와 시간을 나타내는데 사용되는 인터페이스
 ## 날짜와 시간 조회 / 조작하기
-- 
+- `Temporal` 인터페이스 사용
+- `TemporalAccessor`: 특정 시점의 시간 조회
+- `plus()`, `with()`을 통해 시간 조작 가능
+- `TemporalAdjusters`: 복잡한 시간 계산 가능
+## 날짜와 시간 문자열 파싱과 포맷팅
+- 파싱(parsing): 문자열을 날짜와 시간 객체로 변경
+- 포맷팅(formatting): 날짜와 시간 데이터를 원하는 포맷의 문자열로 변경
+- `DateTimeFormatter` 사용
