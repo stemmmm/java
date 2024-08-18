@@ -1,4 +1,4 @@
-package study.week4.section08.hoyunjung.question;
+package study.week4.section08.hoyunjung;
 
 public class Question1 {
     public static void main(String[] args) {
