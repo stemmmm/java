@@ -87,15 +87,78 @@ Duration timeDifference = Duration.between(start, end);
 ## 시간의 단위
 - `TemporalUnit`: 날짜와 시간 측정 단위 제공
 - `ChronoUnit`: 시간 단위 제공
+```java
+LocalDateTime now = LocalDateTime.now();
+System.out.println("Now: " + now);
+
+// 5일 후의 날짜
+LocalDateTime futureDate = now.plus(5, ChronoUnit.DAYS);
+System.out.println("5 Days after: " + futureDate);
+
+// 2시간 전의 시간
+LocalDateTime pastDate = now.minus(2, ChronoUnit.HOURS);
+System.out.println("2 Hours Ago: " + pastDate);
+```
 ## 시간 필드
 - `ChronoField`: 날짜와 시간의 특정 부분을 나타내는 열거형
 - `TemproalField`: 날짜와 시간을 나타내는데 사용되는 인터페이스
+```java
+LocalDateTime dateTime = LocalDateTime.now();
+System.out.println("LocalDateTime: " + dateTime);
+
+// 년도 추출
+int year = dateTime.get(ChronoField.YEAR);
+System.out.println("Year: " + year);
+
+// 월 추출
+int month = dateTime.get(ChronoField.MONTH_OF_YEAR);
+System.out.println("Month: " + month);
+
+// 일 추출
+int day = dateTime.get(ChronoField.DAY_OF_MONTH);
+System.out.println("Day: " + day);
+
+// 시간 추출
+int hour = dateTime.get(ChronoField.HOUR_OF_DAY);
+System.out.println("Hour: " + hour);
+        
+// 분 추출
+int minute = dateTime.get(ChronoField.MINUTE_OF_HOUR);
+System.out.println("Minute: " + minute);
+
+// 초 추출
+int second = dateTime.get(ChronoField.SECOND_OF_MINUTE);
+System.out.println("Second: " + second);
+```
 ## 날짜와 시간 조회 / 조작하기
 - `Temporal` 인터페이스 사용
 - `TemporalAccessor`: 특정 시점의 시간 조회
 - `plus()`, `with()`을 통해 시간 조작 가능
 - `TemporalAdjusters`: 복잡한 시간 계산 가능
+```java
+LocalDateTime dateTime = LocalDateTime.now();
+System.out.println("LocalDateTime: " + dateTime);
+
+// 날짜와 시간 필드를 설정하기
+LocalDateTime updatedDateTime = dateTime.with(ChronoField.YEAR, 2024)
+                                        .with(ChronoField.MONTH_OF_YEAR, 9)
+                                        .with(ChronoField.DAY_OF_MONTH, 1)
+                                        .with(ChronoField.HOUR_OF_DAY, 11)
+                                        .with(ChronoField.MINUTE_OF_HOUR, 36)
+                                        .with(ChronoField.SECOND_OF_MINUTE, 0);
+
+System.out.println("LocalDateTime: " + updatedDateTime);
+```
 ## 날짜와 시간 문자열 파싱과 포맷팅
 - 파싱(parsing): 문자열을 날짜와 시간 객체로 변경
 - 포맷팅(formatting): 날짜와 시간 데이터를 원하는 포맷의 문자열로 변경
 - `DateTimeFormatter` 사용
+```java
+LocalDateTime dateTime = LocalDateTime.now();
+System.out.println("LocalDateTime: " + dateTime);
+
+// 사용자 정의 포맷
+DateTimeFormatter myFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+String myFormatter = dateTime.format(myFormatter);
+System.out.println("Custom Format: " + customFormatted);
+```
