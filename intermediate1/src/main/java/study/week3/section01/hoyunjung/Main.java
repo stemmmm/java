@@ -9,7 +9,7 @@ public class Main {
         User userA = new User(1);
         User userB = new User(1);
 
-        // id 같으므로 true 출력(equals 메서드 오버라이딩 안하면 false 출력)
+        // id 같으므로  true 출력(equals 메서드 오버라이딩 안하면 false 출력)
         System.out.println(userA.equals(userB));
     }
 }
