@@ -1,8 +1,8 @@
-package study.week5.section02.hoyunjung.question.question2;
+package study.section02.hoyunjung.quiz.quiz2;
 
-import study.week5.section02.hoyunjung.question.Marine;
-import study.week5.section02.hoyunjung.question.Zealot;
-import study.week5.section02.hoyunjung.question.Zergling;
+import study.section02.hoyunjung.quiz.Marine;
+import study.section02.hoyunjung.quiz.Zealot;
+import study.section02.hoyunjung.quiz.Zergling;
 
 public class ShuttleTest {
     public static void main(String[] args) {

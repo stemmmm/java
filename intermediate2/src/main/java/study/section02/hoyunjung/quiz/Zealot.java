@@ -1,4 +1,4 @@
-package study.week5.section02.hoyunjung.question;
+package study.section02.hoyunjung.quiz;
 
 public class Zealot extends BioUnit {
     public Zealot(String name, int hp) {

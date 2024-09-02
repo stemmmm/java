@@ -1,9 +1,9 @@
-package study.week5.section02.hoyunjung.question.question3;
+package study.section02.hoyunjung.quiz.quiz3;
 
-import study.week5.section02.hoyunjung.question.Marine;
-import study.week5.section02.hoyunjung.question.Zealot;
-import study.week5.section02.hoyunjung.question.Zergling;
-import study.week5.section02.hoyunjung.question.question2.Shuttle;
+import study.section02.hoyunjung.quiz.Marine;
+import study.section02.hoyunjung.quiz.Zealot;
+import study.section02.hoyunjung.quiz.Zergling;
+import study.section02.hoyunjung.quiz.quiz2.Shuttle;
 
 public class UnitPrinterTest {
     public static void main(String[] args) {

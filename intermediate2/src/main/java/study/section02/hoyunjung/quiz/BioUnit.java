@@ -1,6 +1,5 @@
-package study.week5.section02.hoyunjung.question;
+package study.section02.hoyunjung.quiz;
 
-import jdk.jfr.Timespan;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.ToString;

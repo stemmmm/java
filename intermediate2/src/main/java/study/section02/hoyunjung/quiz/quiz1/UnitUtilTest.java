@@ -1,7 +1,7 @@
-package study.week5.section02.hoyunjung.question.question1;
+package study.section02.hoyunjung.quiz.quiz1;
 
-import study.week5.section02.hoyunjung.question.Marine;
-import study.week5.section02.hoyunjung.question.Zealot;
+import study.section02.hoyunjung.quiz.Marine;
+import study.section02.hoyunjung.quiz.Zealot;
 
 public class UnitUtilTest {
     public static void main(String[] args) {

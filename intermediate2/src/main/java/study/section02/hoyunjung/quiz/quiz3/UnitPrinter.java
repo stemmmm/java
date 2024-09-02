@@ -1,7 +1,7 @@
-package study.week5.section02.hoyunjung.question.question3;
+package study.section02.hoyunjung.quiz.quiz3;
 
-import study.week5.section02.hoyunjung.question.BioUnit;
-import study.week5.section02.hoyunjung.question.question2.Shuttle;
+import study.section02.hoyunjung.quiz.BioUnit;
+import study.section02.hoyunjung.quiz.quiz2.Shuttle;
 
 public class UnitPrinter {
     public static <T extends BioUnit> void printV1(Shuttle<T> shuttle) {

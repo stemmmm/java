@@ -1,6 +1,6 @@
-package study.week5.section02.hoyunjung.question.question2;
+package study.section02.hoyunjung.quiz.quiz2;
 
-import study.week5.section02.hoyunjung.question.BioUnit;
+import study.section02.hoyunjung.quiz.BioUnit;
 
 public class Shuttle<T extends BioUnit> {
     private T unit;

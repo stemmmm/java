@@ -1,4 +1,4 @@
-package study.week5.section02.hoyunjung.question;
+package study.section02.hoyunjung.quiz;
 
 public class Marine extends BioUnit {
     public Marine(String name, int hp) {

@@ -1,6 +1,6 @@
-package study.week5.section02.hoyunjung.question.question1;
+package study.section02.hoyunjung.quiz.quiz1;
 
-import study.week5.section02.hoyunjung.question.BioUnit;
+import study.section02.hoyunjung.quiz.BioUnit;
 
 public class UnitUtil {
     static <T extends BioUnit> T maxHp(T unitA, T unitB) {
