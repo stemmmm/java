@@ -1,7 +1,5 @@
 package study.section09.injejeong.quiz;
 
-import study.week2.section09.injejeong.quiz.Item;
-
 public class Movie extends Item {
     private String director;
     private String actor;

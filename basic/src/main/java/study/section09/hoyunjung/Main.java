@@ -1,6 +1,6 @@
 package study.section09.hoyunjung;
 
-import study.week2.section09.hoyunjung.car.ElectricCar;
+import study.section09.hoyunjung.car.ElectricCar;
 
 public class Main {
     public static void main(String[] args) {

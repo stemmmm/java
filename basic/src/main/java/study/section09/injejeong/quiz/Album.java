@@ -1,7 +1,5 @@
 package study.section09.injejeong.quiz;
 
-import study.week2.section09.injejeong.quiz.Item;
-
 public class Album extends Item {
     public String artist;
 

@@ -1,6 +1,6 @@
 package study.section07.injejeong.quiz;
 
-import static study.week2.section07.injejeong.quiz.MathArrayUtils.*;
+import static study.section07.injejeong.quiz.MathArrayUtils.*;
 
 public class MathArrayUtilsMain {
     public static void main(String[] args) {
