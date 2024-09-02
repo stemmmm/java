@@ -1,4 +1,4 @@
-package study.week3.section05.hoyunjung;
+package study.section05.hoyunjung;
 
 import lombok.Getter;
 

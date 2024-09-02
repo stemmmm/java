@@ -1,4 +1,4 @@
-package study.week4.section06.injejeong.quiz;
+package study.section06.injejeong.quiz;
 
 import java.time.LocalDateTime;
 

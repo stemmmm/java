@@ -1,6 +1,6 @@
-package study.week4.section08.hoyunjung;
+package study.section08.hoyunjung;
 
-public class Question1 {
+public class Quiz {
     public static void main(String[] args) {
         OuterClass.NestedClass nestedClass = new OuterClass.NestedClass();
         nestedClass.hello();

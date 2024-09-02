@@ -1,4 +1,4 @@
-package study.week3.section01.hoyunjung;
+package study.section01.hoyunjung;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

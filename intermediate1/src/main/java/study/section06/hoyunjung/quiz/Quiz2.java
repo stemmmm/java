@@ -1,4 +1,4 @@
-package study.week4.section06.hoyunjung.question;
+package study.section06.hoyunjung.quiz;
 
 import java.time.LocalDate;
 
@@ -8,7 +8,7 @@ import java.time.LocalDate;
  * @author junghoyun
  * @since 8/16/24
  */
-public class Question2 {
+public class Quiz2 {
     public static void main(String[] args) {
         LocalDate localDate = LocalDate.of(2024, 1, 1);
 

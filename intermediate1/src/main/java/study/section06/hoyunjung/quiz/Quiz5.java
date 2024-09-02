@@ -1,4 +1,4 @@
-package study.week4.section06.hoyunjung.question;
+package study.section06.hoyunjung.quiz;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -11,7 +11,7 @@ import java.time.ZonedDateTime;
  * @author junghoyun
  * @since 8/16/24
  */
-public class Question5 {
+public class Quiz5 {
     public static void main(String[] args) {
         LocalDate localDate = LocalDate.of(2024, 1, 1);
         LocalTime localTime = LocalTime.of(9, 0);

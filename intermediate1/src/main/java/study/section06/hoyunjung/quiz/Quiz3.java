@@ -1,4 +1,4 @@
-package study.week4.section06.hoyunjung.question;
+package study.section06.hoyunjung.quiz;
 
 import java.time.LocalDate;
 import java.time.Period;
@@ -10,7 +10,7 @@ import java.time.temporal.ChronoUnit;
  * @author junghoyun
  * @since 8/16/24
  */
-public class Question3 {
+public class Quiz3 {
     public static void main(String[] args) {
         LocalDate startDate = LocalDate.of(2024, 8, 7);
         LocalDate endDate = LocalDate.of(2025, 2, 7);

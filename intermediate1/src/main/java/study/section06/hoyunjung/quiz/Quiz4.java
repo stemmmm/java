@@ -1,4 +1,4 @@
-package study.week4.section06.hoyunjung.question;
+package study.section06.hoyunjung.quiz;
 
 import java.time.LocalDate;
 import java.time.temporal.TemporalAdjusters;
@@ -9,7 +9,7 @@ import java.time.temporal.TemporalAdjusters;
  * @author junghoyun
  * @since 8/16/24
  */
-public class Question4 {
+public class Quiz4 {
     public static void main(String[] args) {
         int year = 2024;
         int month = 1;
