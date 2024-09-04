@@ -6,7 +6,7 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
 /**
- * 문제5 - 국제 회의 시간
+ * 문제5: 국제 회의 시간
  *
  * @author junghoyun
  * @since 8/16/24
