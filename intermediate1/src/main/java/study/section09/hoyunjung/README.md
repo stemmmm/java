@@ -1,7 +1,7 @@
 # 예외 처리1 - 이론
 
 ## 예외 계층 구조
-![error.png](error.png)
+![img.png](img.png)
 - `Throwable`: 최상위 예외
 - `Error`: 어플리케이션에서 복구 불가한 예외이므로 잡아선 안됨 
 - `Exception`: 컴파일 예외, 체크 예외라고 부름
