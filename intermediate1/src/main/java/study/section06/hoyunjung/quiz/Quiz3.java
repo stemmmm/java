@@ -5,7 +5,7 @@ import java.time.Period;
 import java.time.temporal.ChronoUnit;
 
 /**
- * 문제3 - 디데이 구하기
+ * 문제3: 디데이 구하기
  *
  * @author junghoyun
  * @since 8/16/24

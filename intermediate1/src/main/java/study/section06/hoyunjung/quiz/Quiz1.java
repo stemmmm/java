@@ -3,7 +3,7 @@ package study.section06.hoyunjung.quiz;
 import java.time.LocalDateTime;
 
 /**
- * 문제1 - 날짜 더하기
+ * 문제1: 날짜 더하기
  *
  * @author junghoyun
  * @since 8/16/24

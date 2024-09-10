@@ -3,7 +3,7 @@ package study.section06.hoyunjung.quiz;
 import java.time.LocalDate;
 
 /**
- * 문제2 - 날짜 간격 반복 출력하기
+ * 문제2: 날짜 간격 반복 출력하기
  *
  * @author junghoyun
  * @since 8/16/24

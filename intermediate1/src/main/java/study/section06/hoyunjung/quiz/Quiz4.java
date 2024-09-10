@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.temporal.TemporalAdjusters;
 
 /**
- * 문제4 - 시작 요일, 마지막 요일 구하기
+ * 문제4: 시작 요일, 마지막 요일 구하기
  *
  * @author junghoyun
  * @since 8/16/24
