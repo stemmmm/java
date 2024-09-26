@@ -17,6 +17,12 @@
 - `notifyAll()` 메서드를 사용해 기아 문제를 해결할 수 있지만, 매번 모든 스레드를 깨워야하는 비효율 발생
 
 ```java
+import lombok.extern.slf4j.Slf4j;
+
+import java.util.ArrayDeque;
+import java.util.Queue;
+
+@Slf4j
 class BoundedQueue {
     private final Queue<String> queue = new ArrayDeque<>();
     private final int maxSize;
