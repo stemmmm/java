@@ -1,4 +1,4 @@
-# 생산자 소비자 문제2
+# 생산자-소비자 문제2
 
 ## 개선1: `Lock`과 `Condition` 사용
 - 생산자가 생산자 스레드를 깨우고, 소비자가 소비자 스레드를 깨우는 비효율을 개선해야함
@@ -79,6 +79,6 @@ class BoundedQueue {
 <br>
 
 ## 개선2: `BlockingQueue` 사용
-- 자바는 생산자 소비자 문제를 해결하기 위한 `BlockingQueue` 인터페이스를 제공함
+- 자바는 생산자-소비자 문제를 해결하기 위한 `BlockingQueue` 인터페이스를 제공함
 - `BlockingQueue`의 구현체들은 내부적으로 위 코드와 비슷한 로직으로 동작함
 - `ArrayBlockingQueue`, `LinkedBlockingQueue` 등의 구현체 존재
