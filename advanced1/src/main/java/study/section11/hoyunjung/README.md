@@ -3,7 +3,7 @@
 
 ## synchronized 컬렉션
 - 프록시 패턴을 사용해 모든 내부 메서드에 `synchronized` 키워드를 붙여 구현된 자료 구조
-- 모든 메서드 사용 시 락 오버헤드가 발생하므로 성능이 크게 저하됨
+- 모든 메서드 호출 시 락 획득과 해제의 오버헤드가 발생하여 성능이 저하됨
 
 ## `java.util.concurrent`의 동시성 컬렉션
 - `synchronized` 컬렉션을 대체할 수 있는 높은 성능의 thread-safe 자료 구조
