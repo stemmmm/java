@@ -21,7 +21,7 @@ public synchronized void method() {}
 public void method() {
     // 필요한 부분만
     synchronized(this) {
-	      // ...   
+        // ...   
     }
 }
 ```

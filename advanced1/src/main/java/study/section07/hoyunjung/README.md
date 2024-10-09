@@ -1,10 +1,4 @@
 # 고급 동기화
-- Lock 인터페이스
-  - 메서드
-- ReentrantLock
-  - 동작방식
-  - 공정 모드
-  - 비공정 모드
 
 ## `LockSupport`
 - `synchronized`의 무한 대기 문제를 해결할 수 있지만, `LockSupport`는 저수준에서 직접 구현해야 하기 때문에 사용이 어려움
