@@ -18,3 +18,55 @@
 - 한계:
   - 서로의 락을 기다리는 무한 대기 상태에 빠질 수 있음
   - `notify()`는 임의의 스레드 하나를 깨우기 때문에, 중요한 스레드가 계속 선택되지 않는 기아 문제 발생 가능
+
+```java
+import java.util.ArrayDeque;
+import java.util.Queue;
+import java.util.logging.Logger;
+
+class BoundedQueue {
+    private static final Logger log = Logger.getLogger(BoundedQueue.class.getName());
+    private final Queue<String> queue = new ArrayDeque<>();
+    private final int max;
+
+    public BoundedQueue(int max) {
+        this.max = max;
+    }
+
+    public synchronized void put(String data) {
+        while (queue.size() == max) {
+            log.info("큐가 가득 참, 생산자 대기");
+            try {
+                wait();
+                log.info("생산자 깨어남");
+            } catch (InterruptedException e) {
+                throw new RuntimeException();
+            }
+        }
+        queue.offer(data);
+        log.info("데이터 추가: " + data);
+        notifyAll();
+    }
+
+    public synchronized void take() {
+        while (queue.isEmpty()) {
+            log.info("큐가 비어있음, 소비자 대기");
+            try {
+                wait();
+                log.info("소비자 깨어남");
+            } catch (InterruptedException e) {
+                throw new RuntimeException();
+            }
+        }
+        String data = queue.poll();
+        log.info("데이터 꺼냄: " + data);
+        notifyAll();
+        return data;
+    }
+    
+    @Override
+    public String toString() {
+        return queue.toString();
+    }
+}
+```
