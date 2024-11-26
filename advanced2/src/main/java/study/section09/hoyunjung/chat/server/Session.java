@@ -1,5 +1,7 @@
 package study.section09.hoyunjung.chat.server;
 
+import lombok.Getter;
+import lombok.Setter;
 import study.util.SocketCloseUtil;
 
 import java.io.DataInputStream;
@@ -17,7 +19,10 @@ public class Session implements Runnable {
     private final CommandManager commandManager;
     private final SessionManager sessionManager;
 
-    private boolean closed = false;
+    private final boolean closed = false;
+
+    @Getter
+    @Setter
     private String username;
 
     public Session(Socket socket, CommandManager commandManager, SessionManager sessionManager) throws IOException {
@@ -58,11 +63,4 @@ public class Session implements Runnable {
         log("연결 종료: " + socket);
     }
 
-    public String getUsername() {
-        return username;
-    }
-
-    public void setUsername(String username) {
-        this.username = username;
-    }
 }
