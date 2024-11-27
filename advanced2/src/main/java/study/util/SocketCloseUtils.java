@@ -7,7 +7,7 @@ import java.net.Socket;
 
 import static study.util.MyLogger.log;
 
-public class SocketCloseUtil {
+public class SocketCloseUtils {
 
     public static void closeAll(Socket socket, InputStream input, OutputStream output) {
         close(input);
